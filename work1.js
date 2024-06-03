@@ -11,7 +11,7 @@ function workone(a, b) {
 return localVariable;
 };
 
-let test = workone("유으뜸");
+let test = workone("유으뜸","euddeum");
 console.log(test);
 
 
