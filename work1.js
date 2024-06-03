@@ -5,6 +5,22 @@
 function workone(a, b) {
 // 매개 변수 두개를 받은 다음
 // return은 객체였으면 좋겠음
+ let localVariable = {};
+ localVariable[a] = a;
+ localVariable[b] = b;
+return localVariable;
+};
 
-return 오브젝트;
-}
+let test = workone("유으뜸");
+console.log(test);
+
+
+
+// // * 변수 하나를 객체로 만드는것
+
+// let obj = {};
+// const a = "테스트";
+
+// obj[a] = a;
+// console.log(obj);
+
